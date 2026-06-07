@@ -1,0 +1,15 @@
+# Menjalankan ETL Pipeline
+
+python main.py
+
+
+# Menjalankan Unit Test
+
+pytest tests
+
+
+# Menjalankan Test Coverage
+
+coverage run -m pytest tests
+
+coverage report -m
